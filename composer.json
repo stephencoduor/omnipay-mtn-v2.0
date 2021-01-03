@@ -4,13 +4,13 @@
     "description": "MTN CAM mobile money driver gateway for Omnipay V2.0 payment processing library",
     "keywords": [
         "gateway",
-        "omnipay MTN",
+        "omnipay 2.0 MTN gateway ",
         "momoc",
         "mobile",
         "money",
         "payment"
     ],
-    "homepage": "https://github.com/stephencoduor/omnipay-mtn-v2.5",
+    "homepage": "https://github.com/stephencoduor/omnipay-mtn-v2.0",
     "license": "MIT",
     "authors": [
         {
