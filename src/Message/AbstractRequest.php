@@ -73,9 +73,19 @@ abstract class AbstractRequest extends BaseAbstractRequest{
     }
 
     public function sendData($data){
+
+        /*  $httpRequest = $this->httpClient->post($this->getEndpoint(), null, http_build_query($data, '', '&'));
+            $httpRequest->getCurlOptions()->set(CURLOPT_SSLVERSION, 6); // CURL_SSLVERSION_TLSv1_2 for libcurl < 7.35
+            $httpResponse = $httpRequest->send();
+            return $this->createResponse($httpResponse->getBody());
+             */
+
         $url = $this->getEndpoint();
-        $response = $this->httpClient->request('POST',$url,$this->getHeaders(), json_encode($data));
+       // $response = $this->httpClient->request('POST',$url,$this->getHeaders(), json_encode($data));
+        $response = $this->httpClient->post($url,$this->getHeaders(), json_encode($data));
+
         return $this->createResponse($response->getBody());
+
     }
 
     protected function createResponse($data, $header = []){

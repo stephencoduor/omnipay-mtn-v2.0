@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8cf3e2f5-021f-46cb-9933-28d7a297d0db" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Message/AbstractRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Message/AbstractRequest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -307,7 +306,7 @@
       <workItem from="1609565148903" duration="719000" />
       <workItem from="1609567304256" duration="1051000" />
       <workItem from="1609569107410" duration="1665000" />
-      <workItem from="1609653133716" duration="1486000" />
+      <workItem from="1609653133716" duration="3835000" />
     </task>
     <task id="LOCAL-00001" summary="Added momoc API data parameters to the payment request gateway for this driver">
       <created>1543000780888</created>
