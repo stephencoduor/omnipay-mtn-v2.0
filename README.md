@@ -11,7 +11,7 @@ processing library for PHP 5.3+. This package implements MTN Mobile money suppor
 
 ## Note
 
-This release is scurrently unstable but will soon be released on a stable branch when the fix is applied. If you seek to use this package urgently, please contact author @larrytech7
+This release is scurrently unstable but will soon be released on a stable branch when the fix is applied. If you seek to use this package urgently, please contact author me
 
 ## Installation
 
