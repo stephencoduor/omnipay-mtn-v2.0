@@ -1,7 +1,7 @@
 {
     "name": "stephencoduor/omnipay-mtn",
     "type": "Library",
-    "description": "MTN CAM mobile money driver gateway for Omnipay V2.5 payment processing library",
+    "description": "MTN CAM mobile money driver gateway for Omnipay V2.0 payment processing library",
     "keywords": [
         "gateway",
         "omnipay MTN",
@@ -22,8 +22,7 @@
         "psr-4": { "Omnipay\\Momoc\\" : "src/" }
     },
     "require": {
-        "php": "^5.6|^7.1",
-        "omnipay/common": "v2.5.2"
+        "omnipay/common": "~2.0"
     },
     "require-dev": {
         "omnipay/tests": "~2.0"

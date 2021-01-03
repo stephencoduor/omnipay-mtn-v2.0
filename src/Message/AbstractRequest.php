@@ -1,9 +1,4 @@
 <?php
-/**
- * Created by Akah
- * Date: 22/9/2018
- * Time: 2:16 PM
- */
 
 namespace Omnipay\Momoc\Message;
 
