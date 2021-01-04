@@ -20,10 +20,6 @@ To install, go to your project root directory and simply run :
 
     $ composer require stephencoduor/omnipay-mtn
 
-OR you can also add the following lines to your composer.json inside the require field parameter
-```
-"omnipay/common": "2.0",
-"stephencoduor/omnipay-mtn-v2.0" : "2.0"
 ```
 Then run ```composer update``` to fetch it
 
