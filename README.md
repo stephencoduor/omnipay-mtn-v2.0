@@ -30,7 +30,8 @@ The following methods are provided by this package:
 * purchase
 
  
-``` use Omnipay\Omnipay;
+```
+use Omnipay\Omnipay;
 
 $gateway = Omnipay::create('Momoc');
 $config = [
@@ -44,17 +45,18 @@ $config = [
 $gateway->authorize($config);
 $response = $gateway->purchase($config)->send();
 
-$transactionInfo = $response->getMessage(); //an array containing transaction data
+$transactionInfo = $response->getMessage(); 
+//an array containing transaction data
 
 if($response->isSuccessful()){
     //save transaction to database and notify the user
-    //.....
+    
 }else{
     //get error from the message and notify the user
-    //......
-} ```
-For general usage instructions, please see the main [Omnipay](https://github.com/thephpleague/omnipay)
-repository.
+    //
+} 
+```
+
 
 
 ## Support
@@ -69,4 +71,4 @@ you can subscribe to.
 
 If you believe you have found a bug, please report it using the [GitHub issue tracker](https://github.com/dilab/omnipay-2c2p/issues),
 or better yet, fork the library and submit a pull request.
-"# omnipay-mtn-v2.5" 
+"# omnipay-mtn-v2.0" 
