@@ -18,19 +18,19 @@ This release is scurrently unstable but will soon be released on a stable branch
 Omnipay is installed via [Composer](http://getcomposer.org/). 
 To install, go to your project root directory and simply run :
 
-    $ composer require stephencoduor/omnipay-mtn
+  ```  $ composer require stephencoduor/omnipay-mtn ```
 
-```
+
 Then run ```composer update``` to fetch it
 
 ## Basic Usage
 
 The following methods are provided by this package:
 
-+ purchase
+* purchase
 
-```
-use Omnipay\Omnipay;
+ 
+``` use Omnipay\Omnipay;
 
 $gateway = Omnipay::create('Momoc');
 $config = [
@@ -52,8 +52,7 @@ if($response->isSuccessful()){
 }else{
     //get error from the message and notify the user
     //......
-}
-```
+} ```
 For general usage instructions, please see the main [Omnipay](https://github.com/thephpleague/omnipay)
 repository.
 
